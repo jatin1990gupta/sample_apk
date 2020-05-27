@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/adminPanelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADMIN PANEL"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Password Required)"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/newUserBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New User"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
