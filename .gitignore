@@ -1,5 +1,6 @@
 *.iml
 .gradle
+/code by jatin
 /local.properties
 /.idea/caches
 /.idea/libraries
